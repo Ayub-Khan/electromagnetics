@@ -10,5 +10,4 @@ twine==1.12.1
 
 pycodestyle==2.5.0
 pytest==4.2.0
->>>>>>> 275a824... circle-ci configurations
 pytest-runner==4.2

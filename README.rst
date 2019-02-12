@@ -15,7 +15,7 @@ Electromagnetics
 
 
 .. image:: https://pyup.io/repos/github/ayub-khan/electromagnetics/shield.svg
-     :target: https://pyup.io/repos/github/ayub-khan/electromagnetics/
+     :target: https://pyup.io/repos/github/Ayub-Khan/electromagnetics/shield.svg
      :alt: Updates
 
 
