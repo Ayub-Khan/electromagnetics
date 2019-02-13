@@ -9,10 +9,15 @@ def two_charges_vector_force(charge_1, charge_2, unit_vector, distance):
     """
     This will calculate the amount of repulsion or attraction force between two charges.
     This returns the vector force from charge_1 to charge_2
-    param : charge_1 (Charge 1,  unit = C)
-    param : charge_2 (Charge 2,  unit = C)
-    param : unit_vector (Direction of force)
-    param : distance (Distance between both charges, unit = m)
+
+    :param charge_1: Charge 1  unit : C
+
+    :param charge_2: Charge 2  unit : C
+
+    :param unit_vector: Direction of force
+
+    :param distance: Distance between both charges : m
+
     :return: Total amount of repulsion or attraction force between charges.  unit : N
 
     Usage :
@@ -24,9 +29,13 @@ def two_charges_vector_force(charge_1, charge_2, unit_vector, distance):
 def two_charges_vector_force_magnitude_only(charge_1, charge_2, distance):
     """
     This will calculate the amount of repulsion or attraction force between two charges.
+
     :param charge_1: Charge 1  unit : C
+
     :param charge_2: Charge 2  unit : C
+
     :param distance: Distance between both charges : m
+
     :return: Total amount of repulsion or attraction force between charges.  unit : N
 
     Usage:
@@ -38,16 +47,20 @@ def two_charges_vector_force_magnitude_only(charge_1, charge_2, distance):
 def accumulative_force_on_charge_by_other(main_charge, charges_dict_with_distance):
     """
     This returns the accumulative force on charge one by other charges.
+
     :param main_charge: Charge on which we are measuring force.  unit : C
+
     :param charges_dict_with_distance: list of charges with their distance and charge
             example= [
                 {charge: amount, distance: amount, unit_vector: 1},
                 {charge: amount, distance: amount, unit_vector: -1},
                 {charge: amount, distance: amount, unit_vector: 1},
                 ]
+
     :return: Total Accumulative force on main charge. unit : N
 
     Usage :
+
     accumulative_force_on_charge_by_other(
         10e-6,
         [
