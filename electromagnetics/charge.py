@@ -9,7 +9,7 @@ def positive_charge(weight):
 
     :param weight: weight in kgs
 
-    :return: charge : charge in coulomb
+    :return: charge: charge in coulomb
     """
     return (weight/(PROTON_MASS+NEUTRON_MASS))*PROTON_CHARGE
 
@@ -20,6 +20,6 @@ def negative_charge(weight):
 
     :param weight: weight in kgs
 
-    :return: charge : charge in coulomb
+    :return: charge: charge in coulomb
     """
     return (weight/(PROTON_MASS+NEUTRON_MASS))*ELECTRON_CHARGE
