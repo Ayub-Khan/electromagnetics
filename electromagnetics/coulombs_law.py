@@ -9,10 +9,10 @@ def two_charges_vector_force(charge_1, charge_2, unit_vector, distance):
     """
     This will calculate the amount of repulsion or attraction force between two charges.
     This returns the vector force from charge_1 to charge_2
-    :param charge_1: Charge 1  unit : C
-    :param charge_2: Charge 2  unit : C
-    :param unit_vector: Direction of force
-    :param distance: Distance between both charges : m
+    param : charge_1 (Charge 1,  unit = C)
+    param : charge_2 (Charge 2,  unit = C)
+    param : unit_vector (Direction of force)
+    param : distance (Distance between both charges, unit = m)
     :return: Total amount of repulsion or attraction force between charges.  unit : N
 
     Usage :
