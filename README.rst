@@ -61,3 +61,8 @@ Credits
 This package was created with Cookiecutter_ .
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+
+
+.. image:: https://api.codacy.com/project/badge/Grade/eace853f7aaa458d8722aff6f0e51333
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/app/Ayub-Khan/electromagnetics?utm_source=github.com&utm_medium=referral&utm_content=Ayub-Khan/electromagnetics&utm_campaign=Badge_Grade_Settings
