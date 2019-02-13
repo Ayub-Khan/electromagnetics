@@ -13,11 +13,13 @@ Electromagnetics
         :target: https://electromagnetics.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
 .. image:: https://pyup.io/repos/github/Ayub-Khan/electromagnetics/shield.svg
      :target: https://pyup.io/repos/github/Ayub-Khan/electromagnetics/
      :alt: Updates
 
+.. image:: https://api.codacy.com/project/badge/Grade/eace853f7aaa458d8722aff6f0e51333
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/app/Ayub-Khan/electromagnetics?utm_source=github.com&utm_medium=referral&utm_content=Ayub-Khan/electromagnetics&utm_campaign=Badge_Grade_Settings
 
 
 Electromagnetics is a suit of algorithms used in electromagnetics problems.
@@ -61,8 +63,3 @@ Credits
 This package was created with Cookiecutter_ .
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-
-
-.. image:: https://api.codacy.com/project/badge/Grade/eace853f7aaa458d8722aff6f0e51333
-   :alt: Codacy Badge
-   :target: https://app.codacy.com/app/Ayub-Khan/electromagnetics?utm_source=github.com&utm_medium=referral&utm_content=Ayub-Khan/electromagnetics&utm_campaign=Badge_Grade_Settings
