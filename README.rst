@@ -6,8 +6,8 @@ Electromagnetics
 .. image:: https://img.shields.io/pypi/v/electromagnetics.svg
         :target: https://pypi.python.org/pypi/electromagnetics
 
-.. image:: https://img.shields.io/travis/ayub-khan/electromagnetics.svg
-        :target: https://travis-ci.org/ayub-khan/electromagnetics
+.. image:: https://circleci.com/gh/Ayub-Khan/electromagnetics/tree/master.svg?style=svg
+        :target: https://circleci.com/gh/Ayub-Khan/electromagnetics
 
 .. image:: https://readthedocs.org/projects/electromagnetics/badge/?version=latest
         :target: https://electromagnetics.readthedocs.io/en/latest/?badge=latest
