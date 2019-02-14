@@ -17,7 +17,7 @@ Electromagnetics
      :target: https://pyup.io/repos/github/Ayub-Khan/electromagnetics/
      :alt: Updates
 
-.. image:: https://api.codacy.com/project/badge/Grade/eace853f7aaa458d8722aff6f0e51333
+.. image:: https://api.codacy.com/project/badge/Grade/2e58e5874aae44dc97aa566f99c2252d
    :alt: Codacy Badge
    :target: https://app.codacy.com/app/Ayub-Khan/electromagnetics?utm_source=github.com&utm_medium=referral&utm_content=Ayub-Khan/electromagnetics&utm_campaign=Badge_Grade_Settings
 
