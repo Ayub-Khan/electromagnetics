@@ -8,18 +8,17 @@ jobs:
 
     docker:
 
-      - image: circleci/python:3.6.6
+      - image: php:7.2.10-cli-stretch
 
     steps:
 
       - checkout
 
-      - run: sudo chown -R circleci:circleci /usr/local/bin
+      - run: composer global require --prefer-dist --no-progress --dev squizlabs/php_codesniffer
 
-      - run: sudo chown -R circleci:circleci /usr/local/lib/python3.6/site-packages
+      - run: composer global require --prefer-dist --no-progress --dev niels-de-blaauw/php-doc-check
 
-      - run: make requirements
+      - run: phpcs -p . --standard=Zend,Squiz
 
-      - run: make test
+      - run: vendor/bin/php-doc-check .
 
-      - run: make test-quality
