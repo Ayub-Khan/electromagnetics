@@ -16,6 +16,6 @@ jobs:
       - run: composer global require --prefer-dist --no-progress --dev squizlabs/php_codesniffer
       - run: composer global require --prefer-dist --no-progress --dev niels-de-blaauw/php-doc-check
       - run: pwd
-      - run: ./vendor/bin/phpcs . --standard=Zend,Squiz
-      - run: ./vendor/bin/php-doc-check .
+      - run: ./.composer/vendor/bin/phpcs . --standard=Zend,Squiz
+      - run: ./.composer/vendor/bin/php-doc-check .
 
