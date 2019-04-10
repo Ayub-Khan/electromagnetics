@@ -16,5 +16,5 @@ jobs:
 
       #- run: phpcs -p . --standard=Zend,Squiz
 
-      - run: vendor/bin/php-doc-check .
+      - run: ./vendor/bin/php-doc-check .
 
