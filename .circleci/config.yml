@@ -8,7 +8,7 @@ jobs:
 
     docker:
 
-      - image: edly-wp-plugin:alpha
+      - image: ayubkhan/edly-wp-plugin:alpha
 
     steps:
 
