@@ -14,11 +14,7 @@ jobs:
 
       - checkout
 
-      - run: composer global require --prefer-dist --no-progress --dev squizlabs/php_codesniffer
-
-      - run: composer global require --prefer-dist --no-progress --dev niels-de-blaauw/php-doc-check
-
-      - run: phpcs -p . --standard=Zend,Squiz
+      #- run: phpcs -p . --standard=Zend,Squiz
 
       - run: vendor/bin/php-doc-check .
 
