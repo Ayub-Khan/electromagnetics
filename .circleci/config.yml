@@ -14,7 +14,6 @@ jobs:
 
       - checkout
 
-      #- run: phpcs -p . --standard=Zend,Squiz
-
-      - run: ./vendor/bin/php-doc-check .
+      - run: ./.composer/vendor/bin/phpcs . --standard=Zend,Squiz
+      - run: ./.composer/vendor/bin/php-doc-check .
 
