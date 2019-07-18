@@ -1,8 +1,24 @@
 language: python
+
 python:
-  - "2.7"
-  - "3.7"
-# command to install dependencies
+  - 2.7
+  - 3.6
+  - 3.7
+
+env:
+  - TOXENV=django22
+
+matrix:
+  include:
+    - python: 2.7
+      env: TOXENV=quality
+  allow_failures:
+    - python: 3.6
+    - python: 3.7
+    - python: 2.7
+      env: TOXENV=django22
+
+
 install:
   - pip install -r requirements_dev.txt
 # command to run tests
