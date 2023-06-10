@@ -10,5 +10,5 @@ twine==1.12.1
 sphinx_rtd_theme==0.4.3
 
 pycodestyle==2.5.0
-pytest==4.2.1
+pytest==7.3.2
 pytest-runner==4.2
